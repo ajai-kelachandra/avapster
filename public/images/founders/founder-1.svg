@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 550" fill="none">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#1A1829" />
+      <stop offset="60%" stop-color="#0E100F" />
+      <stop offset="100%" stop-color="#080A09" />
+    </radialGradient>
+    <linearGradient id="violetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C4B5FD" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="strokeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.05" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="440" height="550" fill="url(#bgGlow)" />
+
+  <!-- Subtle Ambient Glow -->
+  <circle cx="220" cy="240" r="140" fill="#7C3AED" opacity="0.12" filter="blur(40px)" />
+
+  <!-- Sleek Outer Frame / Corner Accents -->
+  <rect x="24" y="24" width="392" height="502" stroke="url(#strokeGrad)" stroke-width="1" />
+  
+  <!-- Subtle Technical Corner Marks -->
+  <path d="M 24 44 L 24 24 L 44 24" stroke="#A78BFA" stroke-width="1.5" fill="none" opacity="0.7" />
+  <path d="M 416 44 L 416 24 L 396 24" stroke="#A78BFA" stroke-width="1.5" fill="none" opacity="0.7" />
+  <path d="M 24 506 L 24 526 L 44 526" stroke="#A78BFA" stroke-width="1.5" fill="none" opacity="0.7" />
+  <path d="M 416 506 L 416 526 L 396 526" stroke="#A78BFA" stroke-width="1.5" fill="none" opacity="0.7" />
+
+  <!-- Stylized Executive Monogram Circle -->
+  <circle cx="220" cy="245" r="76" fill="#111411" stroke="url(#strokeGrad)" stroke-width="1.5" />
+  <circle cx="220" cy="245" r="70" stroke="#A78BFA" stroke-opacity="0.25" stroke-dasharray="4 4" stroke-width="1" />
+
+  <!-- Monogram Initials "VP" -->
+  <text 
+    x="220" 
+    y="262" 
+    text-anchor="middle" 
+    fill="url(#violetGrad)" 
+    font-family="'Space Grotesk', -apple-system, sans-serif" 
+    font-size="44" 
+    font-weight="700" 
+    letter-spacing="2"
+  >VP</text>
+
+  <!-- Architectural Baseline Accent -->
+  <rect x="180" y="340" width="80" height="2" fill="#A78BFA" opacity="0.4" />
+  <circle cx="220" cy="341" r="3" fill="#A78BFA" />
+</svg>

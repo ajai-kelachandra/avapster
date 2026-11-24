@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" fill="none" width="100%" height="100%">
+  <g transform="translate(4, 8)">
+    <path d="M24 4L40 42H32.5L27.8 31H20.2L15.5 42H8L24 4Z" fill="#A78BFA" />
+    <polygon points="24,14 27.5,25 20.5,25" fill="#080A09" />
+  </g>
+  <text x="66" y="38" fill="#A78BFA" font-family="'Space Grotesk', -apple-system, sans-serif" font-size="28" font-weight="800" letter-spacing="3.5">A</text>
+  <text x="91" y="38" fill="#F5F5F0" font-family="'Space Grotesk', -apple-system, sans-serif" font-size="28" font-weight="700" letter-spacing="3.5">VAPSTER</text>
+</svg>

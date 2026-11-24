@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 560" fill="none">
+  <rect width="440" height="560" fill="#080A09" />
+  <rect x="2" y="2" width="436" height="556" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" />
+  <line x1="20" y1="20" x2="35" y2="20" stroke="#A78BFA" stroke-width="1.5" />
+  <line x1="20" y1="20" x2="20" y2="35" stroke="#A78BFA" stroke-width="1.5" />
+  <line x1="420" y1="20" x2="405" y2="20" stroke="#A78BFA" stroke-width="1.5" />
+  <line x1="420" y1="20" x2="420" y2="35" stroke="#A78BFA" stroke-width="1.5" />
+
+  <rect x="50" y="50" width="340" height="420" fill="#111411" stroke="#FFFFFF" stroke-opacity="0.08" />
+  <path d="M 125 470 C 125 365, 315 365, 315 470 Z" fill="#181C18" />
+  <circle cx="220" cy="275" r="72" fill="#222822" />
+  <line x1="175" y1="240" x2="265" y2="240" stroke="#8A8DFF" stroke-width="2.5" />
+
+  <text x="50" y="505" fill="#F5F5F0" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700" letter-spacing="2">03 / CLOUD TOPOLOGY</text>
+  <text x="50" y="522" fill="#A5ADA2" font-family="'Inter', sans-serif" font-size="9" letter-spacing="1.5">AVAPSTER FOUNDING COLLECTIVE</text>
+  
+</svg>
