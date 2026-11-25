@@ -18,7 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/#founders`,
+      url: `${baseUrl}/our-story`,
       lastModified,
       changeFrequency: "monthly",
       priority: 0.8,
@@ -31,12 +31,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/#approach`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/#why-avapster`,
       lastModified,
       changeFrequency: "monthly",
       priority: 0.7,

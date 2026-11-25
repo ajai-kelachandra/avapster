@@ -3,12 +3,14 @@ export interface PortfolioProject {
   title: string;
   category: string;
   image: string;
+  description: string;
   features: string[];
 }
 
 export const portfolioProjects: PortfolioProject[] = [
   {
     id: "restaurant-ordering",
+    description: "Guests scan a QR code at the table, browse the menu, then order and pay without waiting for a waiter.",
     title: "Restaurant QR Code Ordering System",
     category: "FoodTech & Hospitality",
     image: "/images/portfolio/restaurant-ordering.jpg",
@@ -22,6 +24,7 @@ export const portfolioProjects: PortfolioProject[] = [
   },
   {
     id: "saree-ecommerce",
+    description: "An online store for traditional and modern sarees, with filters, cart and WhatsApp enquiry.",
     title: "Saree E-commerce Website",
     category: "Fashion & Retail Platform",
     image: "/images/portfolio/saree-ecommerce.jpg",
@@ -35,6 +38,7 @@ export const portfolioProjects: PortfolioProject[] = [
   },
   {
     id: "jewellery-ecommerce",
+    description: "A refined storefront for gold, diamond and bridal collections.",
     title: "Jewellery E-commerce Website",
     category: "Luxury Retail E-Commerce",
     image: "/images/portfolio/jewellery-ecommerce.jpg",
@@ -48,6 +52,7 @@ export const portfolioProjects: PortfolioProject[] = [
   },
   {
     id: "construction-company",
+    description: "A corporate website presenting completed projects, services and a direct enquiry form.",
     title: "Construction Company Website",
     category: "Corporate & Infrastructure",
     image: "/images/portfolio/construction-company.jpg",
@@ -61,6 +66,7 @@ export const portfolioProjects: PortfolioProject[] = [
   },
   {
     id: "gym-fitness",
+    description: "Membership plans, trainers and class schedules with simple online sign-up.",
     title: "Gym & Fitness Website",
     category: "Health & Wellness Platform",
     image: "/images/portfolio/gym-fitness.jpg",
@@ -72,5 +78,18 @@ export const portfolioProjects: PortfolioProject[] = [
       "Join Now registration",
     ],
   },
+  {
+    id: "finance-app",
+    description: "A mobile app that turns salary, bills and goals into a simple daily safe-to-spend number.",
+    title: "Personal Finance App",
+    category: "Mobile App",
+    image: "/images/portfolio/finance-app.webp",
+    features: [
+      "Salary and pay-cycle overview",
+      "Daily safe-to-spend amount",
+      "EMIs, budgets and goals",
+      "Fixed deductions tracking",
+      "Quick add for expenses",
+    ],
+  },
 ];
-

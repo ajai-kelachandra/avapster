@@ -1,13 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
-
-const spaceGrotesk = localFont({
-  src: "../../public/fonts/space-grotesk-latin.woff2",
-  variable: "--font-space",
-  display: "swap",
-  weight: "400 700",
-});
 
 const inter = localFont({
   src: "../../public/fonts/inter-latin.woff2",
@@ -16,8 +10,15 @@ const inter = localFont({
   weight: "300 700",
 });
 
+const serif = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  weight: ["500", "700", "800"],
+  variable: "--font-jakarta",
+  display: "swap",
+});
+
 export const viewport: Viewport = {
-  themeColor: "#080A09",
+  themeColor: "#faf8f7",
   width: "device-width",
   initialScale: 1,
 };
@@ -110,7 +111,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${spaceGrotesk.variable} ${inter.variable} scroll-smooth`}
+      className={`${inter.variable} ${serif.variable}`}
     >
       <head>
         <script
@@ -118,7 +119,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="bg-[#080A09] text-[#F5F5F0] font-sans antialiased selection:bg-[#A78BFA] selection:text-[#080A09]">
+      <body className="bg-paper font-sans text-ink antialiased">
         {children}
       </body>
     </html>
